@@ -9,10 +9,10 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task4.V13.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2;
-            double y = 1;
+            double x = 1.08;
+            double y = 0.9;
             var result = ds.Calculate(x, y);
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(-0,045, result);
 
         }
     }
