@@ -10,7 +10,7 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task4.V13.Test
         {
             DataService ds = new DataService();
             double x = 0.5;
-            double y = 2.0;
+            double y = 2;
             var result = ds.Calculate(x, y);
             Assert.AreEqual(0.005, result);
 
