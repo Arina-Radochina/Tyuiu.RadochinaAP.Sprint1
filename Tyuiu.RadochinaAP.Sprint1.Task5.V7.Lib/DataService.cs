@@ -6,7 +6,7 @@
         {
             if (f >= 0 && f < 360)
             {
-                double h = f / 30.0;
+                double h = f / 30;
                 int t = (int)h;
                 return t;
             }
