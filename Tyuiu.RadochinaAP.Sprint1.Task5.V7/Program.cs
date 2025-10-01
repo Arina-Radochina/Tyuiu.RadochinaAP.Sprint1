@@ -20,21 +20,20 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task5.V7
                 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
                 Console.WriteLine("***************************************************************************");
 
-                double f;
-                Console.WriteLine("Введите значение f: ");
-                f = Convert.ToDouble(Console.ReadLine());
+                double x;
+                Console.WriteLine("Введите значение X: ");
+                x = Convert.ToDouble(Console.ReadLine());
 
                 Console.WriteLine("**************************************************************************");
                 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
                 Console.WriteLine("**************************************************************************");
 
-                double result = Convert.ToDouble(ds.AngleToHoursMinutes(f));
-                Console.WriteLine("Ответ "+result);  
-            Console.ReadKey();
+                Console.WriteLine($"{ds.AngleToHoursMinutes(x)}");
+                Console.ReadKey();
 
 
 
-            }
+        }
         }
     }
 

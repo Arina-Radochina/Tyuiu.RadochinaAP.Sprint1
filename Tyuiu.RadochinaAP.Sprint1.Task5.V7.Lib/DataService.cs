@@ -2,9 +2,19 @@
 {
     public class DataService : ISprint1Task5V7
     {
-        public double AngleToHoursMinutes(double f)
-        { 
-            return f / 30;
+        public int AngleToHoursMinutes(double f)
+        {
+            if (f >= 0 && f < 360)
+            {
+                double h = f / 30.0;
+                int t = (int)h;
+                return t;
+            }
+            else
+            {
+                return -1;
+            }
         }
     }
 }
+   

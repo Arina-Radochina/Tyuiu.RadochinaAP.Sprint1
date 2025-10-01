@@ -2,15 +2,14 @@
 namespace Tyuiu.RadochinaAP.Sprint1.Task5.V7.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
-    {
+        public class DataSeviceTest
+        {
         [TestMethod]
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double f = 30;
-            var result = ds.AngleToHoursMinutes(f);
-            Assert.AreEqual(1, result);
+            int res = ds.AngleToHoursMinutes(100);
+            Assert.AreEqual(3, res);
         }
     }
 }
