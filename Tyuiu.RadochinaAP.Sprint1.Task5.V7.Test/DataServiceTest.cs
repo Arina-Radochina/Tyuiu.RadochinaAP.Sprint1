@@ -1,4 +1,5 @@
-﻿using Tyuiu.RadochinaAP.Sprint1.Task5.V7.Lib;
+﻿using System;
+using Tyuiu.RadochinaAP.Sprint1.Task5.V7.Lib;
 namespace Tyuiu.RadochinaAP.Sprint1.Task5.V7.Test
 {
     [TestClass]
@@ -7,9 +8,12 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task5.V7.Test
         [TestMethod]
         public void TestMethod1()
         {
+            double f = 30;
             DataService ds = new DataService();
-            int res = ds.AngleToHoursMinutes(100);
-            Assert.AreEqual(3, res);
+
+            double res = ds.AngleToHoursMinutes(f);
+            int h = Convert.ToInt32(res);
+            Assert.AreEqual(3, h);
         }
     }
 }
