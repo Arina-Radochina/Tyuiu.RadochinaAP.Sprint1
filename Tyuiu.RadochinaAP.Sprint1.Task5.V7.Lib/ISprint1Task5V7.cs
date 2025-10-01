@@ -1,7 +1,6 @@
 ﻿namespace Tyuiu.RadochinaAP.Sprint1.Task5.V7.Lib
 {
-    public class Class1
+    public interface ISprint1Task5V7
     {
-
     }
 }
