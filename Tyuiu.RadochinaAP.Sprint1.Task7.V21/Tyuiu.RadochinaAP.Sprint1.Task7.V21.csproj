@@ -11,4 +11,10 @@
     <ProjectReference Include="..\Tyuiu.RadochinaAP.Sprint1.Task7.V21.Lib\Tyuiu.RadochinaAP.Sprint1.Task7.V21.Lib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="tyuiu.cources.programming.interfaces">
+      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
