@@ -6,7 +6,7 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task5.V7.Lib
         public int AngleToHoursMinutes(double f)
         {
             int h = (int) (f / 30);
-            if (h ==12)
+            if (h == 12) 
             {
                 h= 0;
             }

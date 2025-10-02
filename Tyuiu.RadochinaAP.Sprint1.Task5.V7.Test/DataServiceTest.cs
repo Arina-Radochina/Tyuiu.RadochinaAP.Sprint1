@@ -8,7 +8,7 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task5.V7.Test
         [TestMethod]
         public void TestMethod1()
         {
-            double f = 100;
+            double f = 90;
             DataService ds = new DataService();
 
             double res = ds.AngleToHoursMinutes(f);
