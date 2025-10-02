@@ -5,7 +5,6 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task6.V14.Test
     [TestClass]
     public sealed class DataServiceTest
     {
-        // Теперь CheckLowerCaseRusLetters прямо здесь:
         public static bool CheckLowerCaseRusLetters(string text)
         {
             if (string.IsNullOrEmpty(text)) return false;
