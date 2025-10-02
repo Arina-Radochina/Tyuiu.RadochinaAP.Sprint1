@@ -11,7 +11,7 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task7.V21
             Console.Title = "Спринт 1 | Выполнила: Радочина А. П. | ПИНб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Преобразование типов и классов                                    *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
             Console.WriteLine("* Задание #7                                                              *");
             Console.WriteLine("* Вариант #21                                                             *");
             Console.WriteLine("* Выполнила: Радочина Арина Павловна | ПИНб-25-1                          *");
