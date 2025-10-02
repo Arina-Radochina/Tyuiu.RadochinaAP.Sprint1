@@ -28,8 +28,10 @@ namespace Tyuiu.RadochinaAP.Sprint1.Task5.V7
                 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
                 Console.WriteLine("**************************************************************************");
 
-                int h = Convert.ToInt32(ds.AngleToHoursMinutes(f));
-                Console.WriteLine("Ответ: " + h);
+                
+                double res  = Convert.ToDouble(ds.AngleToHoursMinutes(f));
+                int h = Convert.ToInt32(ds.AngleToHoursMinutes(res));
+                Console.WriteLine("Ответ: " + res);
                 Console.ReadKey();
 
 
